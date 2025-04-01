@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function about() {
+export default function AboutPage() {
   return (
     <div>about
     <h1>Descripcion de quienes participan</h1>
