@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -15,8 +14,8 @@ const Navbar: React.FC = () => {
           <div className="flex items-center flex-grow">
             <Link href="/pages">
               <Image                    
-                src="/Logo_CCI.jpeg"
-                alt="CCI"
+                src="/Logo.jpeg"
+                alt="logo"
                 width={350}
                 height={350}
                 className="object-contain max-h-16"
@@ -26,23 +25,23 @@ const Navbar: React.FC = () => {
           </div>
           
           {/* Links rightside */}
-          <div className="flex items-center justify-end space-x-3">
-            <Link href="/pages/about" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
-            Quiénes somos
+          <div className="flex items-center justify-end space-x-6">
+            <Link href="/pages/about" className="no-underline decoration-2 transition-all duration-200 hover:underline hover:decoration-blue-400">
+            Nosotros
             </Link>
 
-            <Link href="/pages/servicepage" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/pages/servicepage" className="no-underline decoration-2 transition-all duration-200 hover:underline hover:decoration-blue-400">
             Servicios
             </Link>
 
-            <Link href="/pages/servicepage" className="no-underline decoration-4 transition-all duration-500 hover:underline hover:decoration-blue-400 uppercase">
+            <Link href="/pages/productpage" className="no-underline decoration-2 transition-all duration-200 hover:underline hover:decoration-blue-400">
             Productos
             </Link>
 
           </div>
         </div>
       </div>
-      <div className="h-2 bg-gradient-to-r from-green-800 via-white to-red-800"></div>
+      {/* <div className="h-2 bg-gradient-to-r from-green-800 via-white to-red-800"></div> */}
     </nav>
   );
 };
