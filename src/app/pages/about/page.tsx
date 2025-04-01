@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../../components/Navbar';
 
 export default function About() {
   return (
-    <div>about
-    <h1>Descripcion de quienes participan</h1>
+    <div>      
+      <Navbar />
+      about
+    <h1 className="mt-20">Descripcion de quienes participan</h1>
     </div>
   )
 }

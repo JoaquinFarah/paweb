@@ -6,6 +6,8 @@ export default function index() {
     
     <div>
       <Navbar />
-      PAGINA index</div>
+      index
+      <h1 className="mt-20">PAGINA index</h1>
+    </div>
   )
 }
