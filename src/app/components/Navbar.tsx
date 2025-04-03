@@ -28,10 +28,9 @@ const Navbar: React.FC = () => {
           {/* Links rightside */}
           <div className="flex items-center justify-end space-x-6 mr-52">
 
-            <Link href="/pages/servicepage" className="no-underline decoration-2 transition-all duration-200 hover:underline hover:decoration-blue-400 text-xl" style={{ textShadow: '2px 2px 4px rgba(0, 191, 255, 1), -2px -2px 4px rgba(255, 255, 255, 0.3)' }}>
-            Test
-            </Link>
-          
+            <Link href="/pages/servicepage" className="no-underline decoration-2 transition-all duration-200 hover:underline hover:decoration-blue-400 text-xl" style={{ textShadow: '2px 2px 4px rgba(0, 191, 255, 1)' }}>
+            Sombreado
+            </Link>     
           
             <Link href="/pages/about" className="no-underline decoration-2 transition-all duration-200 hover:underline hover:decoration-blue-400">
             Nosotros
@@ -48,7 +47,8 @@ const Navbar: React.FC = () => {
           </div>
         </div>
       </div>
-      {/* <div className="h-2 bg-gradient-to-r from-green-800 via-white to-red-800"></div> */}
+      <div className="h-0.5 bg-gradient-to-r from-white via-amber-400 to-white"></div>
+      {/* <div className="h-1 bg-gradient-to-r from-green-800 via-white to-red-800"></div> */}
     </nav>
   );
 };

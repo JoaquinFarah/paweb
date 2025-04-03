@@ -19,7 +19,7 @@ export default function Index() {
         </video>
         
         {/* Mensaje sobre el video */}
-        <div className="absolute top-1/3 left-1 transform -translate-x-1 -translate-y-1 text-white text-5xl font-semibold text-center">
+        <div className="absolute top-1/3 left-1/5 transform -translate-x-1/7 -translate-y-1 text-white text-5xl font-semibold text-center">
           <p className="uppercase">Soluciones integrales con gran impacto para brigadas y equipos de seguridad laboral</p>
         </div>
       </div>
