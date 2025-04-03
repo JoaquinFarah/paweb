@@ -1,7 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../../components/Navbar';
+import Whatsapp from '@/app/components/Whatsapp';
 
 export default function ServicePage() {
   return (
-    <div>service</div>
+    
+    <div>
+      <Navbar />
+      <Whatsapp />
+      
+      
+      
+    </div>
   )
 }
