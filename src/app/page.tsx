@@ -1,10 +1,12 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import Whatsapp from './components/Whatsapp';
 
 export default function Index() {
   return (
     <div className="relative">
       <Navbar />
+      <Whatsapp />
       
       {/* Contenedor del video */}
       <div className="relative h-screen">

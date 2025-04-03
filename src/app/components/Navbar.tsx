@@ -28,19 +28,19 @@ const Navbar: React.FC = () => {
           {/* Links rightside */}
           <div className="flex items-center justify-end space-x-6 mr-52">
           
-            <Link href="/pages/about" className="no-underline decoration-2 transition-all duration-200 hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
+            <Link href="/pages/about" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
             Nosotros
             </Link>
 
-            <Link href="/pages/servicepage" className="no-underline decoration-2 transition-all duration-200 hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
+            <Link href="/pages/servicepage" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
             Servicios
             </Link>
 
-            <Link href="/pages/productpage" className="no-underline decoration-2 transition-all duration-200 hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
+            <Link href="/pages/productpage" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
             Visión
             </Link>
 
-            <Link href="/pages/servicepage" className="no-underline decoration-2 transition-all duration-200 hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
+            <Link href="/pages/servicepage" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
             Misión
             </Link>  
 
