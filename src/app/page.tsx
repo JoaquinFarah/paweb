@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Whatsapp from './components/Whatsapp';
 import Image from 'next/image';
+import Device from './components/Device';
 
 export default function Index() {
   return (
@@ -41,7 +42,12 @@ export default function Index() {
         </div>
       </div>
 
+      
 
+      <div className="mt-20">
+        <Device />
+        <h1 className="text-5xl flex justify-center items-center mt-20">¿Que hacemos?</h1>
+      </div>
 
 
 
