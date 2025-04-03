@@ -7,6 +7,11 @@ export default function About() {
       <Navbar />
       about
     <h1 className="mt-20">Descripcion de quienes participan</h1>
+
+    
+
+
+
     </div>
   )
 }

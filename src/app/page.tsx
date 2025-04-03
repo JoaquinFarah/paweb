@@ -26,6 +26,10 @@ export default function Index() {
 
       {/* Otros contenidos */}
       <h1 className="mt-20">PAGINA index</h1>
+
+
     </div>
+
+
   );
 }
