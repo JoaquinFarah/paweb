@@ -1,12 +1,13 @@
 import React from 'react';
+import Image from 'next/image';
 import Navbar from './components/Navbar';
 import Whatsapp from './components/Whatsapp';
-import Image from 'next/image';
 import Device from './components/Device';
+import Services from './components/Services';
 
 export default function Index() {
   return (
-    <div className="relative">
+    <div className="relative bg-gray-50">
       <Navbar />
       <Whatsapp />
       
@@ -28,7 +29,7 @@ export default function Index() {
         </div>
       </div> */}
 
-      <div className="relative h-screen">
+      <div className="relative h-screen bg-gray-50">
         <Image 
           src="/tunel.jpg" 
           alt="Icono" 
@@ -44,9 +45,10 @@ export default function Index() {
 
       
 
-      <div className="mt-20">
+      <div className="mt-20 bg-gray-50">
         <Device />
         <h1 className="text-5xl flex justify-center items-center mt-20">¿Que hacemos?</h1>
+        <Services />
       </div>
 
 
