@@ -6,7 +6,8 @@ import Image from 'next/image';
 const Navbar: React.FC = () => {
 
   return (
-    <nav className="bg-amber-300 shadow-md fixed w-full z-50">
+    // style={{ backgroundColor: '#e5771b' }}
+    <nav style={{ backgroundColor: '#e5771b' }} className="shadow-md fixed w-full z-50">
       <div className="w-full mx-0 px-1 sm:px-1 lg:px-2">
         <div className="flex justify-between items-center h-16">
           
@@ -26,6 +27,12 @@ const Navbar: React.FC = () => {
           
           {/* Links rightside */}
           <div className="flex items-center justify-end space-x-6 mr-52">
+
+            <Link href="/pages/servicepage" className="no-underline decoration-2 transition-all duration-200 hover:underline hover:decoration-blue-400 text-xl" style={{ textShadow: '2px 2px 4px rgba(0, 191, 255, 1), -2px -2px 4px rgba(255, 255, 255, 0.3)' }}>
+            Test
+            </Link>
+          
+          
             <Link href="/pages/about" className="no-underline decoration-2 transition-all duration-200 hover:underline hover:decoration-blue-400">
             Nosotros
             </Link>
