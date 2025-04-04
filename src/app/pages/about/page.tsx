@@ -108,17 +108,17 @@ export default function About() {
         </div>
 
         {/* Two Columns */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-20 px-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-20 px-50">
           <div className="flex flex-col items-center text-center">
             <Image 
-              src="/Risk.svg" 
+              src="/Hat.svg" 
               alt="High Risk Company 1" 
               width={100} 
               height={100} 
               className="rounded-lg"
             />
-            <h2 className="text-2xl font-semibold mt-5">Gestión de Riesgos</h2>
-            <p className="mt-3 text-lg">Ofrecemos soluciones avanzadas para identificar y mitigar riesgos en entornos laborales de alto peligro.</p>
+            <h2 className="text-2xl font-semibold mt-5">Materiales de calidad</h2>
+            <p className="mt-3 text-lg">Los mejores materiales disponibles en el mercado para garantizar</p>
           </div>
           <div className="flex flex-col items-center text-center">
             <Image 
@@ -130,18 +130,7 @@ export default function About() {
             />
             <h2 className="text-2xl font-semibold mt-5">Seguridad Industrial</h2>
             <p className="mt-3 text-lg">Implementamos estrategias de seguridad industrial que protegen a los trabajadores y optimizan la productividad.</p>
-          </div>
-          <div className="flex flex-col items-center text-center">
-            <Image 
-              src="/Special.svg" 
-              alt="High Risk Company 3" 
-              width={100} 
-              height={100} 
-              className="rounded-lg"
-            />
-            <h2 className="text-2xl font-semibold mt-5">Capacitación Especializada</h2>
-            <p className="mt-3 text-lg">Brindamos formación especializada para garantizar que los equipos estén preparados para enfrentar desafíos críticos.</p>
-          </div>
+          </div>          
         </div>
       </div>
     </div>
