@@ -5,7 +5,7 @@ export default function Whatsapp() {
   return (
     <div className="fixed bottom-10 right-10 z-50 w-20 h-16">
       <div className="flex items-center justify-center">
-        <button type="button" className="inline-flex flex-col items-center justify-center p-2 hover:cursor-pointer group">
+        <button type="button" className="inline-flex flex-col items-center justify-center p-2 hover:cursor-pointer group backdrop-blur-sm bg-white/30 rounded-full shadow-lg shadow-amber-500/50 dark:shadow-lg dark:shadow-amber-800/80 hover:bg-white/50 transition duration-300 ease-in-out">
           <Image 
             src="/whatsapp.png" 
             alt="Icono" 

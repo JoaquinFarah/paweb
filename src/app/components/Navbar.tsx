@@ -7,7 +7,9 @@ const Navbar: React.FC = () => {
 
   return (
     // style={{ backgroundColor: '#e5771b' }}
-    <nav  className="bg-gradient-to-br from-20% to-white shadow-md fixed w-full z-50 backdrop-blur-sm">
+    // <nav  className="bg-gradient-to-br from-20% to-white shadow-md fixed w-full z-50 backdrop-blur-sm">
+    <nav  className="fixed w-full z-50 backdrop-blur-sm rounded-b-lg bg-white/30 shadow-lg shadow-amber-500/50 dark:shadow-lg dark:shadow-amber-800/80 hover:bg-white/50 transition duration-300 ease-in-out">
+
       <div className="w-full mx-0 px-1 sm:px-1 lg:px-2">
         <div className="flex justify-between items-center h-16">
           
