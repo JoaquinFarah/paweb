@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 import Navbar from './components/Navbar';
 import Whatsapp from './components/Whatsapp';
 import Device from './components/Device';
@@ -12,24 +12,24 @@ export default function Index() {
       <Whatsapp />
       
       {/* Contenedor del video */}
-      {/* <div className="relative h-screen">
+      <div className="relative h-screen">
         <video 
           className="absolute top-0 left-0 w-full h-full object-cover"
           autoPlay
           muted
           loop
         >
-          <source src="ingenieria1.mp4" type="video/mp4" />
+          <source src="belen.mp4" type="video/mp4" />
           Tu navegador no soporta el video.
-        </video> */}
+        </video>
         
         {/* Mensaje sobre el video */}
-        {/* <div className="absolute top-1/3 left-1/5 transform -translate-x-1/7 -translate-y-1 text-white text-5xl font-semibold text-center">
-          <p className="uppercase">Soluciones integrales con gran impacto para brigadas y equipos de seguridad laboral</p>
+        <div className="absolute top-1/2 left-1/5 transform -translate-x-1/7 -translate-y-19 text-white text-5xl font-semibold text-center backdrop-blur-sm bg-black/30 rounded-lg p-10">
+          <p className="uppercase">Precisión que impulsa tu industria, formación que salva vidas.</p>
         </div>
-      </div> */}
+      </div>
 
-      <div className="relative h-screen ">
+      {/* <div className="relative h-screen ">
         <Image 
           src="/tunel.jpg" 
           alt="Icono" 
@@ -41,7 +41,7 @@ export default function Index() {
         <div className="absolute top-1/3 left-1/5 transform -translate-x-1/7 -translate-y-1 text-white text-5xl font-semibold text-center rounded-lg p-5">
           <p>Precisión que impulsa tu industria, formación que salva vidas.</p>
         </div>
-      </div>
+      </div> */}
 
 
       <div className="mt-20">
