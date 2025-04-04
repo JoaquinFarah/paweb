@@ -12,10 +12,7 @@ export default function Whatsapp() {
             width={50} 
             height={50} 
             className="w-12 h-12 group-hover:opacity-70 transition-opacity duration-500 ease-in-out"
-          />
-          <span className="text-s font-semibold text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500">
-            Whatsapp
-          </span>
+          />          
         </button>
       </div>
     </div>

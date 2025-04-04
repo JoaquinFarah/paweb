@@ -29,7 +29,7 @@ export default function Index() {
         </div>
       </div> */}
 
-      <div className="relative h-screen bg-gray-50">
+      <div className="relative h-screen ">
         <Image 
           src="/tunel.jpg" 
           alt="Icono" 
@@ -39,12 +39,12 @@ export default function Index() {
         />
                
         <div className="absolute top-1/3 left-1/5 transform -translate-x-1/7 -translate-y-1 text-white text-5xl font-semibold text-center rounded-lg bg-gray-900/50 p-5 backdrop-blur-sm">
-          <p className="uppercase">Soluciones integrales con gran impacto para brigadas y equipos de seguridad laboral</p>
+          <p className="uppercase">Precisión que impulsa tu industria, formación que salva vidas.</p>
         </div>
       </div>
 
 
-      <div className="mt-20 bg-gray-50">
+      <div className="mt-20">
         
         <h1 className="text-5xl flex justify-center items-center mt-20">¿Que hacemos?</h1>
 
@@ -53,11 +53,6 @@ export default function Index() {
       </div>
 
 
-
-
-
     </div>
-
-
   );
 }
