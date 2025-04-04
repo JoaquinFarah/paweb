@@ -76,7 +76,7 @@ export default function HeroSection() {
                 <li className="flex gap-x-3">
                   <ServerIcon aria-hidden="true" className="mt-1 size-5 flex-none text-indigo-600" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Información constante.</strong> Parte de crecer es enseñar. Por eso, nos aseguramos de que nuestros clientes estén siempre informados sobre lo que hacemos y cómo lo hacemos.
+                    <strong className="font-semibold text-gray-900">Formación constante.</strong> Parte de crecer es enseñar. Por eso, nos aseguramos de que nuestros clientes estén siempre informados sobre lo que hacemos y cómo lo hacemos.
                   </span>
                 </li>
               </ul>

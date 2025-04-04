@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center flex-grow ml-10">
             <Link href="/">
               <Image                    
-                src="/logo fondo negro.png"
+                src="/logonitido.png"
                 alt="logo"
                 width={350}
                 height={350}
