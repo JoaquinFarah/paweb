@@ -45,10 +45,11 @@ export default function Index() {
 
 
       <div className="mt-20 bg-gray-50">
-
-        <Device />
+        
         <h1 className="text-5xl flex justify-center items-center mt-20">¿Que hacemos?</h1>
+
         <Services />
+        <Device />
       </div>
 
 

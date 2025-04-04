@@ -67,7 +67,7 @@ const callout = [
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mt-3 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-5">
               {callout.map((callout) => (
-                <div key={callout.name} className="group relative rounded-lg px-1 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-amber-500/50 dark:shadow-lg dark:shadow-amber-800/80">
+                <div key={callout.name} className="group relative rounded-lg px-6 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-amber-500/50 dark:shadow-lg dark:shadow-amber-800/80">
                   <div className="relative mt-5 h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
                     <Image
                       alt={callout.imageAlt}
@@ -77,13 +77,13 @@ const callout = [
                       className="h-full w-full object-cover object-center"
                     />
                   </div>
-                  <h3 className="mt-4 text-2xl text-indigo-500 items-center text-center font-semibold leading-6">
+                  <h3 className="mt-5 text-2xl text-indigo-500 items-center text-center font-semibold leading-7">
                     <p>
                       <span className="absolute inset-0" />
                       {callout.name}
                     </p>
                   </h3>
-                  <p className="text-base font-semibold text-gray-900 mb-6 text-left px-4 mt-10">{callout.description}</p>
+                  <p className="text-base font-semibold text-gray-900 mb-6 text-left px-8 mt-5">{callout.description}</p>
                 </div>
               ))}
             </div>
