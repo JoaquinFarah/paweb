@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar';
 import Whatsapp from '@/app/components/Whatsapp';
 import HeroSection from '@/app/components/Hero';
 
-export default function About() {
+export default function AboutPage() {
   return (
     <div className="bg-gray-50">      
       <Navbar />
