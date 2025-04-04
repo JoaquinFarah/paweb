@@ -34,17 +34,21 @@ const Navbar: React.FC = () => {
             Nosotros
             </Link>
 
-            <Link href="/pages/servicepage" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
+            <Link href="/pages/service" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
             Servicios
             </Link>
 
-            <Link href="/pages/productpage" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
+            <Link href="/pages/vision" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
             Visión
             </Link>
 
-            <Link href="/pages/servicepage" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
+            <Link href="/pages/mision" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
             Misión
             </Link>  
+
+            <Link href="/pages/contact" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
+            Contacto
+            </Link> 
 
           </div>
         </div>

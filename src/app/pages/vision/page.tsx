@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../../components/Navbar';
+import Whatsapp from '@/app/components/Whatsapp';
 
 export default function VisionPage() {
   return (
-    <div>VisionPage</div>
+    <div>
+      <Navbar />
+      <Whatsapp />
+    </div>
   )
 }
