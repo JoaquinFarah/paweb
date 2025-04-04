@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Navbar from '../../components/Navbar';
 import Whatsapp from '@/app/components/Whatsapp';
+import HeroSection from '@/app/components/Hero';
 
 export default function About() {
   return (
@@ -86,12 +87,8 @@ export default function About() {
           </div>          
         </div>
 
-        <h1 className="text-5xl flex justify-center items-center mt-20">¿Quiénes somos?</h1>
-
-        <p className="text-2xl flex justify-center items-center mt-10">En Proalianza, nos enorgullece ofrecer soluciones de alta calidad que satisfacen las necesidades de nuestros clientes. Con años de experiencia en el sector, nos hemos consolidado como líderes en el campo de la seguridad laboral.</p>
-        <p className="text-2xl flex justify-center items-center mt-10">En un mundo donde la seguridad y la eficiencia son primordiales, ofrecemos soluciones prácticas que garantizan el éxito de tu proyecto. Nuestra experiencia en el sector nos permite brindar un servicio integral, adaptándonos a tus necesidades específicas y asegurando resultados óptimos.</p>
-        <p className="text-2xl flex justify-center items-center mt-10">Nos destacamos por nuestra atención al cliente, compromiso con la calidad y un enfoque proactivo en la resolución de problemas. Con nosotros, no solo obtienes un proveedor, sino un socio estratégico que impulsa el éxito de tu proyecto.</p>
-
+        <HeroSection />
+        
 
       </div>
     </div>
