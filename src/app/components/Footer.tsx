@@ -39,16 +39,16 @@ export default function Footer() {
                 <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Servicios</span>
                 <ul className="list-unstyled">
                 <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">Capacitaciones</a>
+                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Capacitaciones</p>
                 </li>
                 <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">Servicio Técnico</a>
+                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Servicio Técnico</p>
                 </li>
                 <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.github.com/creativetimofficial?ref=njs-profile">Asesoramiento</a>
+                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Asesoramiento</p>
                 </li>
                 <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Alquileres</a>
+                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Alquileres</p>
                 </li>
                 </ul>
             </div>
