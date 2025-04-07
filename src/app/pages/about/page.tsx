@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Navbar from '../../components/Navbar';
 import Whatsapp from '@/app/components/Whatsapp';
 import HeroSection from '@/app/components/Hero';
+import Footer from '@/app/components/Footer';
 
 export default function AboutPage() {
   return (
@@ -88,7 +89,7 @@ export default function AboutPage() {
         </div>
 
         <HeroSection />
-        
+        <Footer />
 
       </div>
     </div>
