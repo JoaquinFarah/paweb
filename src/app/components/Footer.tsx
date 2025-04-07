@@ -36,36 +36,36 @@ export default function Footer() {
         <div className="w-full lg:w-6/12 px-4">
             <div className="flex flex-wrap items-top mb-6">
             <div className="w-full lg:w-4/12 px-4 ml-auto">
-                <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+                <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Servicios</span>
                 <ul className="list-unstyled">
                 <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">About Us</a>
+                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">Capacitaciones</a>
                 </li>
                 <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">Blog</a>
+                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">Servicio Técnico</a>
                 </li>
                 <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.github.com/creativetimofficial?ref=njs-profile">Github</a>
+                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.github.com/creativetimofficial?ref=njs-profile">Asesoramiento</a>
                 </li>
                 <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Free Products</a>
+                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Alquileres</a>
                 </li>
                 </ul>
             </div>
             <div className="w-full lg:w-4/12 px-4">
-                <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+                <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Contacto</span>
                 <ul className="list-unstyled">
                 <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">MIT License</a>
+                <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">fijo - 261578891</p>
                 </li>
                 <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
+                <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Coronel rodriguez 257, Luján, Mendoza</p>
                 </li>
                 <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/privacy?ref=njs-profile">Privacy Policy</a>
+                <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">infopa@gmail.com</p>
                 </li>
                 <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/contact-us?ref=njs-profile">Contact Us</a>
+                <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">wsp - 261889542</p>
                 </li>
                 </ul>
             </div>
