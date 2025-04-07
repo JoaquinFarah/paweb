@@ -2,6 +2,7 @@ import React from 'react';
 // import Image from 'next/image';
 import Navbar from './components/Navbar';
 import Whatsapp from './components/Whatsapp';
+import Footer from './components/Footer';
 import Device from './components/Device';
 import Services from './components/Services';
 
@@ -52,7 +53,7 @@ export default function Index() {
         <Device />
       </div>
 
-
+      <Footer />
     </div>
   );
 }
