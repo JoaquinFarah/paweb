@@ -13,13 +13,7 @@ export default function ContactForm() {
             Nuestros horarios de atención son de lunes a viernes de 9:00 a 18:00. Si tienes alguna pregunta o necesitas más información, no dudes en ponerte en contacto con nosotros. Estaremos encantados de ayudarte.
           </p>
           <div className="space-y-4 text-gray-700">
-            <div className="flex items-start gap-3">
-              <MapPinIcon className="w-6 h-6 mt-1 text-gray-500" />
-              <div>
-                <p>Coronel rodriguez 257</p>
-                <p>Luján, Mendoza, CP.5500</p>
-              </div>
-            </div>
+            
             <div className="flex items-center gap-3">
               <PhoneIcon className="w-5 h-5 text-gray-500" />
               <p>+54 (261)-578891</p>
@@ -32,8 +26,26 @@ export default function ContactForm() {
               <EnvelopeIcon className="w-5 h-5 text-gray-500" />
               <p>infopa@gmail.com</p>
             </div>
+            <div className="flex items-start gap-3">
+              <MapPinIcon className="w-6 h-6 mt-1 text-gray-500" />
+              <div>
+                <p>Coronel rodriguez 257</p>
+                <p>Luján, Mendoza, CP.5500</p>
+              </div>
+            </div>            
           </div>
+          <div className="mt-6">
+            <iframe
+              title="Google Map"
+              src="https://www.google.com/maps?q=Luján%20de%20Cuyo%2C%20Mendoza%2C%20Argentina&output=embed"
+              className="w-full h-64 rounded-md border border-gray-300 shadow"
+              loading="lazy"
+              allowFullScreen
+            ></iframe>
+          </div>
+          
         </div>
+        
 
         {/* Right side - Form */}
         <form className="space-y-6 bg-white">
@@ -85,5 +97,8 @@ export default function ContactForm() {
         </form>
       </div>
     </section>
+    
   );
 }
+
+
