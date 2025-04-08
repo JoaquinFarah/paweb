@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const callout = [   
   {
-    name: 'Venta y alquiler de Equipos de Altura',      
+    name: 'Venta de productos y Accesorios para trabajos en altura',      
     description: 'Nuestros equipamientoss de altura son ideales para trabajos en espacios confinados, como túneles y pozos. Ofrecemos soluciones personalizadas para cada necesidad, garantizando la seguridad y eficiencia en el trabajo.',
     imageSrc: '/altura.jpg',
     imageAlt: 'serv1',
@@ -11,7 +11,7 @@ const callout = [
     height: 1000,    
   }, 
   {
-    name: 'Capacitación Protección en Altura Con Accesorios y elementos de X-URBAN',
+    name: 'Capacitación trabajos en altura con elementos de X-URBAN',
     description: 'Capacitamos a los brigadistas en el uso de nuestros productos y brindamos asesoramiento técnico para garantizar su correcto funcionamiento. Nuestro equipo de expertos está disponible para resolver cualquier duda o inquietud que puedan tener nuestros clientes.',
     imageSrc: '/xurban.jpg',
     imageAlt: 'serv2',
