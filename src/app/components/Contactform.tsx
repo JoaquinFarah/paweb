@@ -12,8 +12,7 @@ export default function ContactForm() {
           <p className="text-lg text-gray-600">
             Nuestros horarios de atención son de lunes a viernes de 9:00 a 18:00. Si tienes alguna pregunta o necesitas más información, no dudes en ponerte en contacto con nosotros. Estaremos encantados de ayudarte.
           </p>
-          <div className="space-y-4 text-gray-700">
-            
+          <div className="space-y-4 text-gray-700">            
             <div className="flex items-center gap-3">
               <PhoneIcon className="w-5 h-5 text-gray-500" />
               <p>+54 (261)-578891</p>
@@ -33,68 +32,18 @@ export default function ContactForm() {
                 <p>Luján, Mendoza, CP.5500</p>
               </div>
             </div>            
-          </div>
-          <div className="mt-6">
+          </div>          
+        </div> 
+        {/* Right side */}      
+        <div className="mt-6">
             <iframe
               title="Google Map"
               src="https://www.google.com/maps?q=Luján%20de%20Cuyo%2C%20Mendoza%2C%20Argentina&output=embed"
-              className="w-full h-64 rounded-md border border-gray-300 shadow"
+              className="w-full h-80 rounded-md border border-gray-300 shadow-lg"
               loading="lazy"
               allowFullScreen
             ></iframe>
           </div>
-          
-        </div>
-        
-
-        {/* Right side - Form */}
-        <form className="space-y-6 bg-white">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700">Nombre</label>
-              <input
-                type="text"
-                className="mt-1 w-full rounded-md border border-gray-300 px-4 py-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700">Apellido</label>
-              <input
-                type="text"
-                className="mt-1 w-full rounded-md border border-gray-300 px-4 py-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
-              />
-            </div>
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Email</label>
-            <input
-              type="email"
-              className="mt-1 w-full rounded-md border border-gray-300 px-4 py-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Celular</label>
-            <input
-              type="tel"
-              className="mt-1 w-full rounded-md border border-gray-300 px-4 py-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Mensaje</label>
-            <textarea
-              rows={4}
-              className="mt-1 w-full rounded-md border border-gray-300 px-4 py-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
-            ></textarea>
-          </div>
-          <div>
-            <button
-              type="submit"
-              className="bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition"
-            >
-              Enviar
-            </button>
-          </div>
-        </form>
       </div>
     </section>
     
