@@ -12,7 +12,7 @@ export default function ContactPage() {
       <Whatsapp />
       <div className="relative h-screen">
         <Image 
-          src="/escalera.jpg" 
+          src="/tunel.jpg" 
           alt="Icono" 
           width={2000} 
           height={2000} 
@@ -22,6 +22,9 @@ export default function ContactPage() {
           <p className="">Contáctate con nosotros y adquiere de manera integral todos los datos y soluciones eficiencientes para tu proyecto.</p>
         </div>
       </div>
+
+    
+
     <Footer />
     </div>
   );
