@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar';
 import Whatsapp from '@/app/components/Whatsapp';
 import Footer from '@/app/components/Footer';
 import ContactBanner from '@/app/components/Contactbanner';
+import ContactForm from '@/app/components/Contactform';
 
 export default function ContactPage() {
   return (
@@ -22,7 +23,7 @@ export default function ContactPage() {
           <p className="">Contáctate con nosotros y adquiere de manera integral todos los datos y soluciones eficiencientes para tu proyecto.</p>
         </div>
       </div>
-
+    <ContactForm />
     <ContactBanner />
     <Footer />
     </div>
