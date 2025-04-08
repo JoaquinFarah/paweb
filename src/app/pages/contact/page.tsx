@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Navbar from '../../components/Navbar';
 import Whatsapp from '@/app/components/Whatsapp';
 import Footer from '@/app/components/Footer';
-import Contact from '@/app/components/Contact';
+import ContactBanner from '@/app/components/Contactbanner';
 
 export default function ContactPage() {
   return (
@@ -23,7 +23,7 @@ export default function ContactPage() {
         </div>
       </div>
 
-    <Contact />
+    <ContactBanner />
     <Footer />
     </div>
   );
