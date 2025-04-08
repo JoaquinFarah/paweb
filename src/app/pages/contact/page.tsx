@@ -2,8 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import Navbar from '../../components/Navbar';
 import Whatsapp from '@/app/components/Whatsapp';
-import HeroSection from '@/app/components/Hero';
 import Footer from '@/app/components/Footer';
+import Contact from '@/app/components/Contact';
 
 export default function ContactPage() {
   return (
@@ -23,8 +23,7 @@ export default function ContactPage() {
         </div>
       </div>
 
-    
-
+    <Contact />
     <Footer />
     </div>
   );
